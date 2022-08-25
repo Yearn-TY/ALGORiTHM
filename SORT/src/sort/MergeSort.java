@@ -1,11 +1,9 @@
 package sort;
 
 /**
- * @ClassName: MergeSort
  * @Description:
  * @Author: all
  * @Date: 2022/8/12 15:26
- * @Copyright: msun
  */
 
 public class MergeSort {

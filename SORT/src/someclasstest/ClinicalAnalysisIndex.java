@@ -1,14 +1,5 @@
 package someclasstest;
 
-/**
- * @description:
- * @fileName: ClinicalAnalysisIndex
- * @author: all
- * @createAt: 2022/8/21 16:01
- * @updateBy: all
- * @remark: Copyright
- */
-
 public class ClinicalAnalysisIndex {
     private String indexCode;
     private String indexName;

@@ -2,14 +2,6 @@ package someclasstest;
 
 import java.util.Comparator;
 
-/**
- * @description:
- * @fileName: ClinicalAnalysisIndexComparator
- * @author: all
- * @createAt: 2022/8/21 16:08
- * @updateBy: all
- * @remark: Copyright
- */
 
 public class ClinicalAnalysisIndexComparator implements Comparator<ClinicalAnalysisIndex> {
 

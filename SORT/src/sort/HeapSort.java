@@ -3,11 +3,9 @@ package sort;
 import utils.Utils;
 
 /**
- * @ClassName: HeapSort
  * @Description:
  * @Author: all
  * @Date: 2022/8/12 17:13
- * @Copyright: msun
  */
 
 public class HeapSort {
