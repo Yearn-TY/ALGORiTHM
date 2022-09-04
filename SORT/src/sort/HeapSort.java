@@ -3,24 +3,43 @@ package sort;
 import utils.Utils;
 
 /**
- * @Description:
- * @Author: all
- * @Date: 2022/8/12 17:13
+ * @author  all
+ * @date 2022/8/12 17:13
  */
 
 public class HeapSort {
-    public static void heapSort(){
+
+    /**
+     * heap sort process
+     * @param array Integer array
+     * @param start start index
+     * @param end end index
+     */
+    public static void heapSort(int[] array, int start, int end) {
+        // Build the big root heap.
+        for (int i = (end-start) >> 1; i >= 0; i--) {
+            maxHeapify(array, i, end);
+        }
 
     }
 
     /**
-     * 调整某位置上的数，使其满足大根堆结构
-     * @param a
-     * @param index
+     * Adjust the big root heap.
+     * @param array Integer array
+     * @param start start index
+     * @param end end index
      */
-    public static void heapInsert(int[] a, int index){
-        while (a[index] > a[(index - 1) / 2]){
-            Utils.swap(a, index, (index - 1) / 2);
+    public static void maxHeapify(int[] array, int start, int end) {
+
+    }
+    /**
+     * Insert an integer into heap, and adjust to satisfy the big root heap.
+     * @param array Integer array
+     * @param index index of the number to insert
+     */
+    public static void heapInsert(int[] array, int index) {
+        while (array[index] > array[(index - 1) / 2]){
+            Utils.swap(array, index, (index - 1) / 2);
             index = (index - 1) / 2;
         }
     }

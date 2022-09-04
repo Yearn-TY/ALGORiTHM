@@ -1,9 +1,8 @@
 package sort;
 
 /**
- * @Description:
- * @Author: all
- * @Date: 2022/8/12 15:26
+ * @author  all
+ * @date 2022/8/12 15:26
  */
 
 public class MergeSort {

@@ -3,6 +3,9 @@ package someclasstest;
 import java.util.Comparator;
 
 
+/**
+ * @author all
+ */
 public class ClinicalAnalysisIndexComparator implements Comparator<ClinicalAnalysisIndex> {
 
     @Override

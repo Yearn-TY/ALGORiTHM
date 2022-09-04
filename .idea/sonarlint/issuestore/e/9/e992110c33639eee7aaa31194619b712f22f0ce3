@@ -1,14 +1,0 @@
-
-P
-java:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
-V	java:S125"<This block of commented-out lines of code should be removed.(ÿˆ¦ãûÿÿÿÿ
-?
-java:S2140")Use "java.util.Random.nextInt()" instead.(ª“­
-D
-java:S2140")Use "java.util.Random.nextInt()" instead.(­¶ëÿÿÿÿÿ
-D
-java:S2140")Use "java.util.Random.nextInt()" instead.(­¶ëÿÿÿÿÿ
-P
-java:S1172+"5Remove these unused method parameters "year", "week".(¦ÊåÓúÿÿÿÿ
-Q	java:S125@"<This block of commented-out lines of code should be removed.(ë®Ší
-Q	java:S125C"<This block of commented-out lines of code should be removed.(Î˜˜«

@@ -1,9 +1,8 @@
 package sort;
 
 /**
- * @Description:
- * @Author: all
- * @Date: 2022/8/12 15:54
+ * @author all
+ * @date 2022/8/12 15:54
  */
 
 public class QuickSort {

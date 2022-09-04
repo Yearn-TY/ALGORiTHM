@@ -1,5 +1,8 @@
 package someclasstest;
 
+/**
+ * @author all
+ */
 public class ClinicalAnalysisIndex {
     private String indexCode;
     private String indexName;
