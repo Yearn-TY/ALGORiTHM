@@ -33,7 +33,7 @@ public class HeapSort {
      * @param index start index
      * @param end end index
      */
-    public static void maxHeapify(int[] array, int index, int end) {
+    private static void maxHeapify(int[] array, int index, int end) {
         if (index >= end) {
             return;
         }
