@@ -69,4 +69,14 @@ public class Utils {
         // System.out.println("结束日期：" + new SimpleDateFormat("yyyy-MM-dd").format(calendar.getTime()));
         return result + new SimpleDateFormat("yyyy-MM-dd").format(calendar.getTime());
     }
+
+    public static char toUpperCase(char c) {
+        return 97 <= c && c <= 122 ? (char) (c ^ 32) : c;
+    }
+
+    public static char toLowerCase(char c) {
+        return 65 <= c && c <= 90 ? (char) (c | 32) : c;
+    }
+
+
 }

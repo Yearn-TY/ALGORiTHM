@@ -9,10 +9,14 @@ import utils.Utils;
 
 public class BubbleSort {
     public static void bubbleSort(int[] array, int start, int end) {
-        for (int i = start; i < end; i++) {
-            for (int j = start; j < end-i; j++) {
-                if (array[j] > array[j + 1]) {
-                    Utils.swap(array, j, j + 1);
+        int lastSwapIndex = end;
+        while (lastSwapIndex > 0) {
+            int endIndex = lastSwapIndex;
+            lastSwapIndex = 0;
+            for (int i = start; i < endIndex; i++) {
+                if (array[i] > array[i + 1]) {
+                    lastSwapIndex = i;
+                    Utils.swap(array, i, i+1);
                 }
             }
         }
