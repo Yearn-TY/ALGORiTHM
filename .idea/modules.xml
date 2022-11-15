@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ALGORiTHM.iml" filepath="$PROJECT_DIR$/ALGORiTHM.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LIST/LIST.iml" filepath="$PROJECT_DIR$/LIST/LIST.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SORT/SORT.iml" filepath="$PROJECT_DIR$/SORT/SORT.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TREE/TREE.iml" filepath="$PROJECT_DIR$/TREE/TREE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
     </modules>
   </component>
 </project>
